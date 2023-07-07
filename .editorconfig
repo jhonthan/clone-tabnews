@@ -1,0 +1,6 @@
+root = true
+
+[*] #Regras aplicadas a todos os arquivos
+indent_style = space #Identacao baseado em espaco e nao TAB
+indent_size = 2 #Identacao baseado em 2 espacos
+  
