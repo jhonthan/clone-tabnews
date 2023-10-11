@@ -1,0 +1,9 @@
+services:
+  database:
+    image: "postgres:16.0-alpine3.18"
+    environment:
+      POSTGRES_PASSWORD: "local_password"
+    ports:
+      - "5432:5432"
+## Usar o Postgres-client (PSQL) para se conectar no banco de dados
+# psql --host=localhost --username=postgres --port=5432
