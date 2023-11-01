@@ -1,8 +1,8 @@
 services:
   database:
     image: "postgres:16.0-alpine3.18"
-    environment:
-      POSTGRES_PASSWORD: "local_password"
+    env_file:
+      - ../infra/.env
     ports:
       - "5432:5432"
 ## Usar o Postgres-client (PSQL) para se conectar no banco de dados
