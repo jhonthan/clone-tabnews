@@ -1,4 +1,4 @@
 node_modules
 node
 .next
-.env.development
+infra/.env.development
