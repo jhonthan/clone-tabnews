@@ -1,3 +1,4 @@
+// Define o Path do NEXT como sendo a raiz(.)
 {
   "compilerOptions": {
     "baseUrl": "."
