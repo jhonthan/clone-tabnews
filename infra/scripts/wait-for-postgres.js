@@ -1,4 +1,5 @@
 const { exec } = require("node:child_process");
+// eslint-disable-next-line no-unused-vars
 const { stdout } = require("node:process");
 
 function checkPostgres() {
