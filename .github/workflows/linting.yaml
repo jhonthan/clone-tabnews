@@ -31,6 +31,7 @@ jobs:
 
       - run: npm run lint:eslint:check
 
+  # https://commitlint.js.org/guides/ci-setup.html
   commitlint:
     name: commitlint
     runs-on: ubuntu-latest
