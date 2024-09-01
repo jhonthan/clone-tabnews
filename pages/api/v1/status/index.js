@@ -10,8 +10,8 @@ async function status(request, response) {
     "SHOW max_connections;",
   );
 
-  const databaseMaxConnectionsValue = await databaseMaxConnectionsResult.rows[0]
-    .max_connections;
+  const databaseMaxConnectionsValue =
+    await databaseMaxConnectionsResult.rows[0].max_connections;
 
   const databaseName = process.env.POSTGRES_DB;
   const databaseOpenedConnectionsResult = await database.query({
